@@ -82,6 +82,7 @@ return [
                         'v1/member/address',
                         'v1/member/invoice',
                         'v1/member/auth',
+                        'v1/member/order',
                         // 版本2
                         'v2/default', // 默认测试入口
                     ],
@@ -96,6 +97,7 @@ return [
                         // 测试查询可删除 例如：http://www.rageframe.com/api/v1/default/search
                         'GET search' => 'search',
                         'GET qr-code' => 'qr-code', // 获取小程序码
+                        'POST creat' => 'creat',
                     ]
                 ],
                 [
